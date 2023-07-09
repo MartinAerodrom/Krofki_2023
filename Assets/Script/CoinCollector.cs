@@ -7,7 +7,8 @@ public class CoinCollector : MonoBehaviour
 {
     public Text coinText;
     private int coins = 0;
-
+    public GameObject Music;
+    public AudioSource coinSound;
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Collectible"))
@@ -15,6 +16,7 @@ public class CoinCollector : MonoBehaviour
             coins++;
             coinText.text = coins.ToString();
             Destroy(other.gameObject);
+            Music.GetComponent<AudioSource>().Play();
         }
     }
 }

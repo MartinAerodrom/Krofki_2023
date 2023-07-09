@@ -5,15 +5,17 @@ TagManager:
   serializedVersion: 2
   tags:
   - Collectible
+  - Enemy
+  - Static
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - post
   - Water
   - UI
-  - 
-  - 
+  - static
+  - Walks
   - 
   - 
   - 

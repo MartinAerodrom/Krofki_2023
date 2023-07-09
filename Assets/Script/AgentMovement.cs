@@ -9,7 +9,7 @@ public class AgentMovement : MonoBehaviour
     Transform target;
     Vector2 moveDir;
     Rigidbody2D rb;
-
+    public float damage;
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -42,4 +42,5 @@ public class AgentMovement : MonoBehaviour
             rb.velocity = new Vector2(moveDir.x, moveDir.y) * movespeed;
         }
     }
+    
 }

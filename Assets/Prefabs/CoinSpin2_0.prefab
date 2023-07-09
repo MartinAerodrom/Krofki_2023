@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6161515215529860890}
   - component: {fileID: 6161515215529860889}
   - component: {fileID: 23241990511747025}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CoinSpin2_0
   m_TagString: Collectible
   m_Icon: {fileID: 0}
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 6161515215529860888}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 12.779502, y: -7.2602673, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.69064, y: 0.69064, z: 0.69064}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
