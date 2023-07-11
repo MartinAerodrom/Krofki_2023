@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HealthBar : MonoBehaviour
+public class HealthBar_Enemy : MonoBehaviour
 {
    public Image healthBar;
-   public Health playerHealth;
+   public EnemyInfo enemyHealth;
 
     void Start()
     {
@@ -16,7 +16,7 @@ public class HealthBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-         healthBar.fillAmount = (float)playerHealth.currentHealth / playerHealth.maxHealth;
+         healthBar.fillAmount = (float)enemyHealth.currentHealth / enemyHealth.maxHealth;
     }
 
   
